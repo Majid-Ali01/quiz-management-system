@@ -31,37 +31,33 @@
 
 <div align="center">
 
-## 📚 Table of Contents
-
-<div align="center">
-
-✨ **Explore the Project** ✨
-
-<table>
-<tr>
-<td align="center">
-
-🔍 **[Overview](#-overview)**
-🎯 **[Features](#-features)**
-🛠️ **[Tech Stack](#️-tech-stack)**
-🏗️ **[Architecture](#️-architecture)**
-🧩 **[OOP Design](#-oop-design)**
-
-</td>
-<td align="center">
-
-📸 **[Screenshots](#-screenshots)**
-📂 **[Project Structure](#-project-structure)**
-⚙️ **[Installation](#️-installation)**
-🚀 **[Roadmap](#-roadmap)**
-👨‍💻 **[Author](#-author)**
-
-</td>
-</tr>
-</table>
+### 📚 Table of Contents
 
 </div>
 
+<div align="left">  make most beautiful attrative 
+
+• [Overview](#-overview) <br>
+
+• [Features](#-features)   <br>
+
+• [Tech Stack](#-tech-stack)    <br>
+
+• [Architecture](#-architecture)    <br>
+
+• [OOP Design](#-oop-design)   <br>
+
+• [Screenshots](#-screenshots)   <br>
+
+• [Project Structure](#-project-structure)   <br>
+
+•[Installation](#-installation)  <br> 
+
+• [Roadmap](#-roadmap)  <br>
+
+• [Author](#-author)  <br>
+
+</div> make more beautifu
 
 <br>
 
