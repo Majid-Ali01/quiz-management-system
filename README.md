@@ -35,9 +35,18 @@
 
 </div>
 
-<div align="center">
+<div align="left">
 
-[Overview](#-overview) • [Features](#-features) • [Tech Stack](#-tech-stack) • [Architecture](#-architecture) • [OOP Design](#-oop-design) • [Screenshots](#-screenshots) • [Project Structure](#-project-structure) • [Installation](#-installation) • [Roadmap](#-roadmap) • [Author](#-author)
+• [Overview](#-overview)
+• [Features](#-features) 
+• [Tech Stack](#-tech-stack)
+• [Architecture](#-architecture)
+• [OOP Design](#-oop-design) 
+• [Screenshots](#-screenshots)
+• [Project Structure](#-project-structure) 
+•[Installation](#-installation) 
+• [Roadmap](#-roadmap) 
+• [Author](#-author)
 
 </div>
 
