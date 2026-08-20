@@ -37,16 +37,16 @@
 
 <div align="left">
 
-• [Overview](#-overview)
-• [Features](#-features) 
-• [Tech Stack](#-tech-stack)
-• [Architecture](#-architecture)
-• [OOP Design](#-oop-design) 
-• [Screenshots](#-screenshots)
-• [Project Structure](#-project-structure) 
-•[Installation](#-installation) 
-• [Roadmap](#-roadmap) 
-• [Author](#-author)
+• [Overview](#-overview) <br>
+• [Features](#-features)   <br>
+• [Tech Stack](#-tech-stack)    <br>
+• [Architecture](#-architecture)    <br>
+• [OOP Design](#-oop-design)   <br>
+• [Screenshots](#-screenshots)   <br>
+• [Project Structure](#-project-structure)   <br>
+•[Installation](#-installation)  <br> 
+• [Roadmap](#-roadmap)  <br>
+• [Author](#-author)  <br>
 
 </div>
 
@@ -111,7 +111,7 @@ The project was built to demonstrate applied **Object-Oriented Programming**, **
 
 ## 🧰 Tech Stack
 
-<div align="center">
+<div align="left">
 
 | Layer | Technology |
 |:---:|:---:|
