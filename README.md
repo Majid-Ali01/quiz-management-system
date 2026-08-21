@@ -1,272 +1,698 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=4479A1&center=true&vCenter=true&width=700&lines=Quiz+Management+System;Java+%2B+MySQL+Desktop+App;Built+with+OOP+%26+JDBC;Admin+%7C+User+%7C+History" alt="Typing SVG" />
+# 🎯 Quiz Management System
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header" width="100%"/>
+### Java Desktop Application • OOP • Swing • JDBC • MySQL
 
 <p>
-<img src="https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/JDBC-Connectivity-007396?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Swing-GUI-5382A1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/JDBC-Database%20Connectivity-007396?style=for-the-badge" alt="JDBC"/>
+  <img src="https://img.shields.io/badge/Swing-GUI-5382A1?style=for-the-badge" alt="Swing"/>
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/status-active-success?style=flat-square" />
-<img src="https://img.shields.io/github/last-commit/Majid-Ali01/quiz-management-system?style=flat-square&color=blue" />
-<img src="https://img.shields.io/github/repo-size/Majid-Ali01/quiz-management-system?style=flat-square&color=orange" />
-<img src="https://img.shields.io/github/stars/Majid-Ali01/quiz-management-system?style=flat-square&color=yellow" />
-<img src="https://img.shields.io/github/license/Majid-Ali01/quiz-management-system?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/Majid-Ali01/quiz-management-system?style=flat-square&color=4479A1" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/repo-size/Majid-Ali01/quiz-management-system?style=flat-square&color=ED8B00" alt="Repository Size"/>
+  <img src="https://img.shields.io/github/stars/Majid-Ali01/quiz-management-system?style=flat-square&color=yellow" alt="Stars"/>
 </p>
 
-<p align="center">A desktop quiz platform built with <b>Java Swing</b> and <b>MySQL</b> — question management, timed attempts, automatic scoring, and full history tracking.</p>
+<p>
+  <strong>A database-driven desktop quiz platform built with Java Swing and MySQL.</strong>
+</p>
 
-<sub>⭐ If this project is useful to you, consider starring the repository — it really helps!</sub>
+<p>
+  The application provides separate administrative and user workflows,
+  topic-based quizzes, automated scoring, and persistent attempt history.
+</p>
+
+<br/>
+
+<a href="#-overview">Overview</a> • <a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-screenshots">Screenshots</a> • <a href="#-installation">Installation</a> • <a href="#-future-improvements">Roadmap</a>
 
 </div>
 
-<br>
+---
 
-<div align="center">
+## 📌 Overview
 
-### 📚 Table of Contents
+**Quiz Management System** is a Java-based desktop application developed as a Software Engineering academic project.
 
-</div>
+The system combines **Object-Oriented Programming, graphical user interface development, relational database management, and JDBC-based database connectivity** into a complete working application.
 
-<div align="left">  make most beautiful attrative 
+The application is designed around two primary workflows:
 
-• [Overview](#-overview) <br>
+* **Administrator** — manages topics, questions, answers, and quiz data.
+* **User** — selects a topic, attempts an MCQ quiz, receives an automatically calculated score, and reviews previous attempts.
 
-• [Features](#-features)   <br>
+The project focuses on applying software engineering concepts in a practical environment rather than implementing only isolated programming exercises.
 
-• [Tech Stack](#-tech-stack)    <br>
-
-• [Architecture](#-architecture)    <br>
-
-• [OOP Design](#-oop-design)   <br>
-
-• [Screenshots](#-screenshots)   <br>
-
-• [Project Structure](#-project-structure)   <br>
-
-•[Installation](#-installation)  <br> 
-
-• [Roadmap](#-roadmap)  <br>
-
-• [Author](#-author)  <br>
-
-</div> make more beautifu
-
-<br>
-
-## 🧭 Overview
-
-**Quiz Management System** is a Java desktop application built as a 2nd-semester software engineering project. It gives administrators full control over a question bank while allowing users to take topic-based quizzes, get scored automatically, and review their attempt history — all backed by a normalized MySQL database.
-
-The project was built to demonstrate applied **Object-Oriented Programming**, **Swing GUI development**, **JDBC connectivity**, and **secure SQL practices**, rather than to be a minimal classroom exercise.
-
-<br>
+---
 
 ## ✨ Features
 
-<table>
-<tr>
-<td valign="top" width="50%">
+### 🔐 Authentication & Access Control
 
-### 🛠️ Admin
-- 🔐 Authenticated admin login
-- 📁 Create and manage quiz topics
-- ➕ Add multiple-choice questions
-- ✅ Define correct answers
-- 🗄️ Question bank stored in MySQL
+* Administrator authentication
+* Separate administrative and user workflows
+* Password handling with hashing
+* Input validation
+* Controlled access to management operations
 
-</td>
-<td valign="top" width="50%">
+### 🛠️ Administration
 
-### 🙋 User
-- ✏️ Simple username entry
-- 🎯 Topic selection
-- 🧩 Interactive MCQ quiz flow
-- 🧮 Automatic score calculation
-- ⚡ Instant results display
+* Create and manage quiz topics
+* Add multiple-choice questions
+* Define answer options
+* Define correct answers
+* Maintain the question bank
+* Store quiz data persistently in MySQL
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+### 🎓 Quiz Experience
 
-### 📊 History
-- 🕓 Per-user attempt history
-- 🔎 Search by username or topic
-- 💾 Persisted results in MySQL
-- 🧹 Clear / reset history
+* Topic-based quiz selection
+* Interactive MCQ interface
+* Question-by-question workflow
+* Automatic answer evaluation
+* Automatic score calculation
+* Immediate result presentation
 
-</td>
-<td valign="top">
+### 📊 History & Results
 
-### 🔒 Security
-- 🧂 SHA-256 password hashing
-- 🛡️ `PreparedStatement` for all queries
-- ✔️ Input validation
-- ⚠️ Centralized exception handling
+* Store completed quiz attempts
+* Associate results with users/topics
+* Search quiz history
+* Review previous results
+* Clear/reset history where required
 
-</td>
-</tr>
-</table>
+### 🛡️ Database & Security Practices
 
-<br>
+* JDBC-based database communication
+* `PreparedStatement` for parameterized SQL queries
+* SHA-256 password hashing
+* Input validation
+* Centralized database exception handling
+* Persistent relational data storage
 
-## 🧰 Tech Stack
+---
 
-<div align="left">
+# 🧰 Technologies
 
-| Layer | Technology |
-|:---:|:---:|
-| Language | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| GUI | ![Swing](https://img.shields.io/badge/Swing-5382A1?style=flat-square) |
-| Database | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| Connectivity | ![JDBC](https://img.shields.io/badge/JDBC-007396?style=flat-square) |
-| Security | ![SHA--256](https://img.shields.io/badge/SHA--256-red?style=flat-square) |
-| Architecture | ![OOP](https://img.shields.io/badge/OOP-blueviolet?style=flat-square) |
-| Version Control | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| Category                | Technology                                   |
+| ----------------------- | -------------------------------------------- |
+| Programming Language    | Java 17+                                     |
+| GUI Framework           | Java Swing                                   |
+| Database                | MySQL 8.0+                                   |
+| Database Connectivity   | JDBC                                         |
+| Programming Paradigm    | Object-Oriented Programming                  |
+| Security                | SHA-256                                      |
+| Version Control         | Git / GitHub                                 |
+| Development Environment | IntelliJ IDEA / VS Code / Eclipse / Terminal |
 
-</div>
+---
 
-<br>
+# 🏗️ Architecture
 
-## 🏗️ Architecture
+The application follows a modular structure where the GUI communicates with application logic, which in turn communicates with the relational database through JDBC.
 
 ```mermaid
-flowchart TD
-    A[🎓 Quiz System] --> B[🛠️ Admin Module]
-    A --> C[🙋 User Module]
+flowchart TB
 
-    B --> B1[🔐 Login]
-    B1 --> B2[📁 Add / Manage Questions]
+    UI["🖥️ Java Swing GUI"]
 
-    C --> C1[✏️ Enter Name & Select Topic]
-    C1 --> C2[🧩 Attempt Quiz]
+    ADMIN["🛠️ Admin Module"]
+    USER["👤 User Module"]
 
-    B2 --> D[(🗄️ MySQL Database)]
-    C2 --> D
+    LOGIC["⚙️ Application Logic"]
 
-    D --> E[🧮 Score Calculation]
-    E --> F[📊 History Stored]
+    JDBC["🔌 JDBC Layer"]
 
-    style A fill:#4479A1,color:#fff
-    style D fill:#ED8B00,color:#fff
-    style E fill:#5382A1,color:#fff
-    style F fill:#007396,color:#fff
+    DB[("🗄️ MySQL Database")]
+
+    UI --> ADMIN
+    UI --> USER
+
+    ADMIN --> LOGIC
+    USER --> LOGIC
+
+    LOGIC --> JDBC
+    JDBC --> DB
+
+    DB --> JDBC
+    JDBC --> LOGIC
+    LOGIC --> UI
 ```
 
-<br>
+### Application Flow
 
-## 🧩 OOP Design
+```text
+User / Admin
+      │
+      ▼
+Java Swing Interface
+      │
+      ▼
+Application Logic
+      │
+      ▼
+JDBC
+      │
+      ▼
+MySQL Database
+```
 
-<div align="center">
+This separation makes the system easier to understand, maintain, and extend.
 
-| Concept | Implementation |
-|:---|:---|
-| 🧱 **Abstraction** | `Person` defines shared structure; `role()` is left to subclasses |
-| 🌳 **Inheritance** | `Admin` and `User` extend `Person` |
-| 🎭 **Polymorphism** | Each subclass overrides inherited behavior |
-| 🔌 **Interface** | `Attemptable` defines the quiz-attempt contract implemented by `User` |
-| 📦 **Encapsulation** | Each class exposes only what's needed through defined methods |
+---
 
-</div>
+# 🧠 OOP Design
 
-**Core classes:** `QuizApp` · `Person` · `Admin` · `User` · `Question` · `History`
+The project demonstrates the major principles of Object-Oriented Programming.
 
-<br>
+| OOP Concept       | Implementation                                                          |
+| ----------------- | ----------------------------------------------------------------------- |
+| **Encapsulation** | Classes encapsulate their data and expose functionality through methods |
+| **Inheritance**   | `Admin` and `User` inherit common properties/behavior from `Person`     |
+| **Polymorphism**  | Subclasses provide their own implementations of inherited behavior      |
+| **Abstraction**   | Common behavior is defined at a higher level where appropriate          |
+| **Interface**     | `Attemptable` defines behavior required for quiz participation          |
 
-## 🖼️ Screenshots
+### Core Classes
+
+```text
+QuizApp
+│
+├── Person
+│   ├── Admin
+│   └── User
+│
+├── Question
+├── History
+└── Attemptable
+```
+
+---
+
+# 🗄️ Database Design
+
+The application uses a relational MySQL database named:
+
+```text
+quizapp
+```
+
+### Main Tables
+
+```text
+┌───────────────┐
+│     admin     │
+├───────────────┤
+│ id            │
+│ username      │
+│ password      │
+└───────────────┘
+
+┌───────────────┐
+│     user      │
+├───────────────┤
+│ id            │
+│ username      │
+└───────────────┘
+
+┌───────────────┐
+│     topic     │
+├───────────────┤
+│ id            │
+│ name          │
+└───────────────┘
+
+┌────────────────────┐
+│      question      │
+├────────────────────┤
+│ id                 │
+│ topic_id           │
+│ question_text      │
+│ option_a           │
+│ option_b           │
+│ option_c           │
+│ option_d           │
+│ correct_answer     │
+└────────────────────┘
+
+┌────────────────────┐
+│      history       │
+├────────────────────┤
+│ id                 │
+│ username           │
+│ topic              │
+│ score              │
+│ attempt_date       │
+└────────────────────┘
+```
+
+The SQL schema is included in the repository so that the application can be reproduced on another development machine.
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Application Interface
 
 <table>
 <tr>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174832.png?raw=true" width="380"><br><sub><b>🏠 Home Screen</b></sub></td>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174911.png?raw=true" width="380"><br><sub><b>🔐 Admin Login</b></sub></td>
+<td align="center" width="50%">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174832.png?raw=true" width="100%"/>
+
+<b>Home Screen</b>
+
+</td>
+
+<td align="center" width="50%">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174911.png?raw=true" width="100%"/>
+
+<b>Admin Login</b>
+
+</td>
 </tr>
+
 <tr>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174958.png?raw=true" width="380"><br><sub><b>📁 Question Management</b></sub></td>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175038.png?raw=true" width="380"><br><sub><b>🙋 User Interface</b></sub></td>
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20174958.png?raw=true" width="100%"/>
+
+<b>Question Management</b>
+
+</td>
+
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175038.png?raw=true" width="100%"/>
+
+<b>User Interface</b>
+
+</td>
 </tr>
+
 <tr>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175115.png?raw=true" width="380"><br><sub><b>🧩 Quiz Interface</b></sub></td>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175159.png?raw=true" width="380"><br><sub><b>🏆 Quiz Result</b></sub></td>
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175115.png?raw=true" width="100%"/>
+
+<b>Quiz Interface</b>
+
+</td>
+
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175159.png?raw=true" width="100%"/>
+
+<b>Quiz Result</b>
+
+</td>
 </tr>
+
 <tr>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175227.png?raw=true" width="380"><br><sub><b>📊 Quiz History</b></sub></td>
-<td align="center"><img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175250.png?raw=true" width="380"><br><sub><b>🔎 History Search</b></sub></td>
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175227.png?raw=true" width="100%"/>
+
+<b>Quiz History</b>
+
+</td>
+
+<td align="center">
+
+<img src="https://github.com/Majid-Ali01/quiz-management-system/blob/main/Screenshot%202026-08-20%20175250.png?raw=true" width="100%"/>
+
+<b>History Search</b>
+
+</td>
 </tr>
 </table>
 
-<br>
+---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 quiz-management-system/
+│
 ├── QuizApp.java
-├── Topic.sql
+│
 ├── admin.sql
+├── Topic.sql
 ├── questions.sql
 ├── history.sql
+│
 ├── .gitignore
 └── README.md
 ```
 
-<div align="center">
+### Database Scripts
 
-**Database (`quizapp`)** — `admin` · `user` · `topic` · `question` · `history`
+| File            | Purpose                   |
+| --------------- | ------------------------- |
+| `admin.sql`     | Administrator data/schema |
+| `Topic.sql`     | Quiz topic data           |
+| `questions.sql` | Question bank             |
+| `history.sql`   | Quiz attempt history      |
 
-</div>
+---
 
-<br>
+# ⚙️ Installation
 
-## ⚙️ Installation
+## 1. Prerequisites
 
-<details open>
-<summary><b>Click to expand setup steps</b></summary>
+Make sure the following software is installed:
 
-<br>
+* Java JDK 17 or later
+* MySQL Server 8.0 or later
+* MySQL Workbench
+* MySQL Connector/J
+* Git
+
+Verify Java:
+
+```bash
+java -version
+```
+
+Verify the Java compiler:
+
+```bash
+javac -version
+```
+
+---
+
+## 2. Clone the Repository
 
 ```bash
 git clone https://github.com/Majid-Ali01/quiz-management-system.git
 ```
 
-1. 🗄️ Import the `.sql` files into a MySQL 8.0+ instance to create the schema.
-2. 🔧 Update the JDBC connection string, username, and password in `QuizApp.java`.
-3. ▶️ Compile and run `QuizApp.java` in your preferred Java IDE or via CLI.
+Navigate into the project:
 
-</details>
+```bash
+cd quiz-management-system
+```
 
-<br>
+---
 
-## 🗺️ Roadmap
+## 3. Create the Database
 
-- [ ] 🎨 Modernized, responsive GUI
-- [ ] ⏱️ Countdown timer per quiz
-- [ ] 🔀 Randomized questions & answer order
-- [ ] 👤 Full user registration & authentication
-- [ ] ✏️ Edit / delete existing questions
-- [ ] 📈 Graphical performance analytics
-- [ ] 📄 PDF export of results
-- [ ] 🏆 Leaderboard system
-- [ ] 🌐 Web-based version
+Open MySQL Workbench and create the database:
 
-<br>
+```sql
+CREATE DATABASE quizapp;
+```
 
-## 👤 Author
+Select it:
+
+```sql
+USE quizapp;
+```
+
+Import/run the provided SQL files:
+
+```text
+admin.sql
+Topic.sql
+questions.sql
+history.sql
+```
+
+---
+
+# 🔌 JDBC Configuration
+
+The application requires MySQL Connector/J.
+
+Example connection configuration:
+
+```java
+String url = "jdbc:mysql://localhost:3306/quizapp";
+String username = "root";
+String password = "YOUR_PASSWORD";
+```
+
+Update the credentials according to your local MySQL installation.
+
+> **Security note:** Do not commit real database passwords, API keys, or other credentials to GitHub.
+
+For a production-oriented implementation, database credentials should be supplied through environment variables or an external configuration file.
+
+---
+
+# ▶️ How to Run
+
+## Using an IDE
+
+1. Open the project in your preferred Java IDE.
+2. Add MySQL Connector/J to the project classpath.
+3. Make sure MySQL Server is running.
+4. Verify the database configuration.
+5. Run:
+
+```text
+QuizApp.java
+```
+
+---
+
+## Using Command Line
+
+Compile:
+
+```bash
+javac -cp ".;mysql-connector-j-9.6.0.jar" QuizApp.java
+```
+
+Run:
+
+```bash
+java -cp ".;mysql-connector-j-9.6.0.jar" QuizApp
+```
+
+> On Linux/macOS, replace `;` with `:` in the classpath.
+
+---
+
+# 🔐 Security Considerations
+
+The project demonstrates several important security-oriented programming practices:
+
+### Parameterized Queries
+
+SQL operations use `PreparedStatement` instead of directly concatenating user input.
+
+```java
+PreparedStatement ps =
+    connection.prepareStatement(
+        "SELECT * FROM admin WHERE username = ?"
+    );
+
+ps.setString(1, username);
+```
+
+This helps reduce the risk of SQL injection.
+
+### Password Hashing
+
+Passwords are processed using SHA-256 rather than being stored directly as plain text.
+
+For a production application, a dedicated password hashing algorithm such as **Argon2, bcrypt, or scrypt** would be preferable.
+
+---
+
+# 🧪 Testing
+
+The application can be tested through the following scenarios:
+
+| Test Area           | Example                                     |
+| ------------------- | ------------------------------------------- |
+| Authentication      | Valid/invalid admin credentials             |
+| Input Validation    | Empty username or question fields           |
+| Question Management | Add valid MCQ                               |
+| Quiz Flow           | Select topic and attempt quiz               |
+| Scoring             | Verify correct/incorrect answer calculation |
+| Database            | Verify records are persisted                |
+| History             | Search and retrieve previous attempts       |
+| Error Handling      | Database unavailable / invalid input        |
+
+---
+
+# 🧠 What I Learned
+
+Developing this project helped me move from individual programming exercises toward building a complete application.
+
+### Technical Skills
+
+* Java Object-Oriented Programming
+* Class design and relationships
+* Inheritance and polymorphism
+* Interfaces and abstraction
+* Java Swing GUI development
+* JDBC database connectivity
+* MySQL relational database design
+* SQL queries
+* Prepared statements
+* Exception handling
+* Git and GitHub workflow
+
+### Software Engineering Skills
+
+* Breaking a problem into modules
+* Designing application workflows
+* Connecting frontend logic with persistent storage
+* Structuring a database-backed application
+* Debugging integration problems
+* Writing technical documentation
+* Managing source code with Git
+
+---
+
+# 🚀 Future Improvements
+
+The following improvements could move the project closer to a production-style application:
+
+* [ ] Modern JavaFX-based user interface
+* [ ] Maven or Gradle build system
+* [ ] MVC architecture
+* [ ] Repository/DAO layer
+* [ ] Connection pooling
+* [ ] Secure password hashing with Argon2/bcrypt
+* [ ] Environment-based database configuration
+* [ ] User registration and authentication
+* [ ] Question editing and deletion
+* [ ] Randomized questions
+* [ ] Randomized answer options
+* [ ] Configurable quiz timer
+* [ ] Performance analytics
+* [ ] Leaderboard
+* [ ] PDF result generation
+* [ ] Automated unit and integration tests
+* [ ] CI/CD with GitHub Actions
+* [ ] Web-based version using Spring Boot
+
+---
+
+# 📈 Project Evolution
+
+The current version focuses on demonstrating core Java, OOP, GUI, JDBC, and database concepts.
+
+A potential production-oriented evolution would be:
+
+```text
+Current
+   │
+   ▼
+Java Swing + JDBC + MySQL
+   │
+   ▼
+MVC Architecture
+   │
+   ▼
+DAO / Repository Pattern
+   │
+   ▼
+Maven / Gradle
+   │
+   ▼
+Automated Testing
+   │
+   ▼
+GitHub Actions / CI
+   │
+   ▼
+Spring Boot REST API
+   │
+   ▼
+Web / Cloud Deployment
+```
+
+This roadmap reflects how the project could evolve from an academic desktop application into a more scalable software system.
+
+---
+
+# 📚 Key Concepts Demonstrated
+
+```text
+Java
+ ├── Classes & Objects
+ ├── Encapsulation
+ ├── Inheritance
+ ├── Polymorphism
+ ├── Abstraction
+ └── Interfaces
+
+Database
+ ├── MySQL
+ ├── SQL
+ ├── Relational Data
+ └── JDBC
+
+Software Engineering
+ ├── Modular Design
+ ├── Input Validation
+ ├── Exception Handling
+ ├── Security Practices
+ ├── Version Control
+ └── Documentation
+```
+
+---
+
+# 🌱 Academic Context
+
+**Project Type:** Academic Software Engineering Project
+**Development Stage:** Undergraduate
+**Primary Focus:** Java OOP + Database Application Development
+
+The project was developed to demonstrate practical implementation of concepts learned during undergraduate Software Engineering studies.
+
+---
+
+# 👨‍💻 Author
 
 <div align="center">
 
-**Majid Ali**
-*Software Engineering Student*
+## Majid Ali
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+**Software Engineering Student**
 
-<sub>Built with ❤️ using Java · MySQL · JDBC · OOP</sub>
+Interested in:
+
+`Software Engineering` • `Java` • `Backend Development` • `Cybersecurity` • `Database Systems`
+
+<br/>
+
+<a href="https://github.com/Majid-Ali01">
+<img src="https://img.shields.io/badge/GitHub-Majid--Ali01-181717?style=for-the-badge&logo=github" />
+</a>
+
+<a href="https://www.linkedin.com/in/majid-ali-3027b03ab/">
+<img src="https://img.shields.io/badge/LinkedIn-Majid%20Ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+# ⭐ Support
+
+If you found this project useful or interesting, consider giving the repository a ⭐.
+
+Your feedback and suggestions are welcome.
+
+---
+
+<div align="center">
+
+### Built with Java • MySQL • JDBC • Swing • OOP
+
+**From academic concepts → practical software**
 
 </div>
